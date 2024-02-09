@@ -1,9 +1,11 @@
 import React from 'react';
+import UserList from './UserList';
 
 const App = () => {
   return (
     <div>
-      <h2>Home</h2>
+      
+      <UserList />
     </div>
   );
 };
