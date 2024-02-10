@@ -53,7 +53,7 @@ const UserList = () => {
     };
   
     setUsers([...users, newUser]);
-    setSelectedUser(newUser); // Set the newly added user as selected
+    setSelectedUser(newUser); 
     Swal.fire("Success", "User added successfully", "success");
   
     setFormData({
